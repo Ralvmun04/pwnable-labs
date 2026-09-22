@@ -68,11 +68,17 @@ system("/bin/cat flag");
 ```
 
 Esto significa que para que el programa imprima la flag, buf tiene que contener exactamente la palabra LETMEWIN\n.
-¿Cómo se hace esto?Pues anteriormente vimos que si fd vale 0, representa la entrada estándar del teclado. Por lo que para que read lea lo que yo escribo y lo guarde en buf, fd tiene que ser 0.
-$\text{fd} = \text{tu número} - 4660$$0 = \text{tu número} - 4660 \implies \text{tu número} = 4660$
-##🚀 Explotación
+¿Cómo se hace esto?
+Pues anteriormente vimos que si fd vale 0, representa la entrada estándar del teclado. Por lo que para que read lea lo que yo escribo y lo guarde en buf, fd tiene que ser 0.
+
+fd = tu número - 4660
+0 = tu número - 4660  ==>  tu número = 4660
+
+## 🚀 Explotación
 
 ![flag_fd.png](./flag_fd.png)
 
 Como podemos ver en la imagen, ingresamos el número 4660 tras ejecutarlo con ./fd y tenemos la flag:
+```c
 Mama! Now_I_understand_what_file_descriptors_are!
+```
