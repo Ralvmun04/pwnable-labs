@@ -1,4 +1,3 @@
-```markdown
 # 🛡️ Pwnable.kr - fd (Toddler's Bottle)
 
 ![fd.png](./fd.png)
@@ -98,7 +97,5 @@ $$0 = \text{tu número} - 4660 \implies \text{tu número} = 4660$$
 Como podemos ver en la imagen, ingresamos el número `4660` tras ejecutarlo con `./fd` y tenemos la flag:
 
 > `Mama! Now_I_understand_what_file_descriptors_are!`
-
-```
 
 ```
