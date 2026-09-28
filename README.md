@@ -7,3 +7,4 @@ Repositorio personal para documentar mi aprendizaje en explotación de binarios 
 | Reto | Estado | Vulnerabilidad principal | Writeup |
 | :--- | :---: | :--- | :---: |
 | **fd** | ✅ Completado | File Descriptors / atoi | [Ver](./toddler/fd/) |
+| **leg** | ✅ Completado | Fallo Logico de la Arquitectura | [Ver](./toddler/leg/) |
