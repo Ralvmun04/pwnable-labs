@@ -24,6 +24,7 @@ En lugar de calcular teóricamente las alineaciones de memoria de cada malloc, s
 
 ## Comandos Utilizados
 
+```bash
 cat << EOF > input.txt
 8
 16
@@ -36,16 +37,21 @@ cat << EOF > input.txt
 2048
 4096
 EOF
-
+```
+```bash
 ./memcpy < input.txt
-
+```
+```bash
 sed -i 's/128/136/' input.txt
 sed -i 's/256/264/' input.txt
 sed -i 's/512/520/' input.txt
 sed -i 's/1024/1032/' input.txt
 sed -i 's/2048/2056/' input.txt
+```
 
+```bash
 ./memcpy < input.txt
+```
 
 Finalmente acabo siendo correcto y obtuvimos la flag:
 ```flag
