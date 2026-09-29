@@ -8,3 +8,4 @@ Repositorio personal para documentar mi aprendizaje en explotación de binarios 
 | :--- | :---: | :--- | :---: |
 | **fd** | ✅ Completado | File Descriptors / atoi | [Ver](./toddler/fd/) |
 | **leg** | ✅ Completado | Fallo Logico de la Arquitectura | [Ver](./toddler/leg/) |
+| **cmd1** | ✅ Completado | Ejecucion Insegura de Comandos | [Ver](./toddler/cmd1/) |
