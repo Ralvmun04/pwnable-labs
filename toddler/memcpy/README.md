@@ -1,5 +1,7 @@
 # Writeup: memcpy (pwnable.kr)
 
+![memcpy](/memcpy.png)
+
 ## Información General
 - Reto: memcpy
 - Plataforma: pwnable.kr (Toddler's Bottle)
