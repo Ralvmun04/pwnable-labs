@@ -1,6 +1,6 @@
 # Writeup: memcpy (pwnable.kr)
 
-![memcpy](/memcpy.png)
+![memcpy](./memcpy.png)
 
 ## Información General
 - Reto: memcpy
